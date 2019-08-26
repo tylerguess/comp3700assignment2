@@ -1,6 +1,6 @@
 public class Finder {
 
-    public java.lang.Integer findMin(int[] inputArray) {
+    public static java.lang.Integer findMin(int[] inputArray) {
 
         if (inputArray == null) {
             return null;
@@ -16,7 +16,7 @@ public class Finder {
         return min;
     }
 
-    public java.lang.Integer findMax(int[] inputArray) {
+    public static java.lang.Integer findMax(int[] inputArray) {
 
         if (inputArray == null) {
             return null;
@@ -29,6 +29,6 @@ public class Finder {
                 max = inputArray[i];
             }
         }
-        return 0;
+        return max;
     }
 }
